@@ -16,7 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 80vh; 
 }
 
 .centered {
@@ -53,4 +53,29 @@ h3 {
     text-align: center;
   }
 
+  @media screen and (max-width: 375px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
   
+    p {
+      font-size: 12px;
+    }
+    .centered h3 {
+        font-size: 12px;
+      }
+      .container{
+         width:80%; 
+      }
+  }
+  
+  
+  @media screen and (min-width: 1440px) {
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+     
+    }
+  }
+

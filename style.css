@@ -55,7 +55,7 @@ h3 {
 
   @media screen and (max-width: 375px) {
     img {
-      max-width: 100%;
+      max-width: 80%;
       height: auto;
     }
   

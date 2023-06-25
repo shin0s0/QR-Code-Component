@@ -16,7 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh; 
+    
 }
 
 .centered {
@@ -36,7 +36,7 @@ img{
  
 h3 {
     margin: 10px auto;
-    width:80%;
+    padding:20px;
     font-size: 19px;
     color: hsl(218, 44%, 22%);
    text-align: center;
@@ -45,7 +45,7 @@ h3 {
   p {
    
    margin: 10px auto;
-    width:80%;
+    padding: 0 20px 20px;
     font-size: 13px;
     color: hsl(220, 15%, 55%);
     text-align: center;
